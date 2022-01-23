@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "singlefocusapp",
+  "private_key_id": "95f7bed9cb292f0f9110f5b82f51eb762c362723",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9Xo03oBiuweq7\nqABjsQkFwk66rtsXI9OIsIB5Fz/7bF37cM5GkQSzgG1vttmi0SMfjjRbZ4vSpsJL\nj+PN0CcYGTBZGNrv67ddCflA6MdHWz1/sHJ79T6tK1KtlZETNYr5o71xV0aIbHB5\nZLEPCE76wmZwfSgXaB2dNs8/IjKd0fj/ixYg6vvsUPvLbICcLWhgac++01YjLzGV\nMPrOtmfJvxSJa6nInkY4R+YFqK+a0ltnrtB6fH5PeRDdhPhb3O0SPoMj+JZOjXk5\n5PR+4VCrl2F7nbpzMHQJl11vl0zc07qbL4vR0Z+1Jmx6uVnW3v3ZnpZvJ8hkd+7q\nGNLwckpbAgMBAAECggEAQIhfrHSY5Lj9oqyKUW7LqdRBGxoqXFTfqeWoKlvTeH1B\n+8VB7kdOKFOcN6VCvlrx0reVvQ5o1kTw0mo7EfCc2ff/g2VWestDpeeXstiAzJ7Z\nstFw+jAlh0LLvo7JLRgif5ceoGjDBwuZOq0nL32/2HF2EmB8UJmw+dnrP1MKl8AX\nvw4DH06as5KfSj/LLT6N+Go+uwNT7jPKEvoNIVsFo11E+PHvYEMQFQBzHE5tA9tl\nrRDLCdjxzsGkpN6P+NiwCUbXq35838oXDA6OYq2zgLn2gtEw/rhIkS3PASn4Jd6M\nMY/pmDLN4aW96GmWecTAToSaDnul/KhUF8j9HZlMNQKBgQDc2D/ZwEVT1my2UFIQ\nO5ElJI4tzWoXhwHTDhPqAqOB7BM+4VePicfYEW3uUlbB73lRI15KCtXke9BWa786\nv6R8DciESpjuI455w7jZ9Y4EPYCO6Wnk9RNoNoYo81sKD01httKBmTUOMt0EY2nI\nvoaTpj4GPD+GImH+Hc36xL4DpQKBgQDbg6I2SBAdim8YtxSTosr1dGaF9EDPlrUA\nxyF3TXNQzrsU7AM/sn73eRVyG013PAee8WT6nRyVashX4hMsH0mqVil4x1dXoOgT\nFvIOxeprXlEnKukg7F0BFCc9YW4ux45nm9gVWxSvH4SQgC0srbqnegcqZI4ffRMJ\np0LxLOW1/wKBgE66XJDAxTYs85ZOreKRiZ2nGXRkjRSUEWdu1lSO2kEfqoC5DmDi\nKjbxh7H08m6ycxoktKFKmZOZO90DDingVb/PnhLjEP+b91ebGVPCAP2r+x93QEPZ\nxjBZd5wznNnKOLjD1ulSd6J3KWk+E2D34rvSALxyT+b+bNaNQ3fJGT/tAoGAHzlI\nF4SElk8col1YVe+wAt39v0wQ8/Yx5NxuTDP+FR5yyfUQOT1Ahh75B/QOPsmRI/Ce\nNm+mozI/MRD9PSduKQZ8e6uPJu3CVQTMhYFtaLxPusyFwKMeT4r4UejL7WeBQAeQ\n4ujDtm07Q/qXcmV7yVq4LjWDacM2tAbQpNGIEy0CgYA0rpy+qQDZ/hE0F8ep0HqX\nsa8siJHeKvQIw8QGeuV3w03bXnh9GiNXzBFQzKzpAzTK1LWHymbCwfIh+KVa/3m0\nFjyM4tmbycUyyw/GyrMlBAihSP2kAOwtid8Na5+sjoFT/hcKyvIIMWcUgidU8JDV\nlmDXhM0CBAMVarLIozVwwQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "twitterbot@singlefocusapp.iam.gserviceaccount.com",
+  "client_id": "115990604545246876430",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/twitterbot%40singlefocusapp.iam.gserviceaccount.com"
+}
