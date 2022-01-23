@@ -1,7 +1,6 @@
 require("dotenv").config(); // load the environment variables
 const dayjs = require("dayjs");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
-const { TwitterApi } = require("twitter-api-v2");
 const Twit = require("twit");
 
 // console.log(process.env);
