@@ -15,5 +15,5 @@ Tweets rows from Google Sheets when they're updated to a specific account
 
 ## To Do:
 
--   Deploy script
+-   Deploy script to Heroku
 -   Let it run on a daily basis

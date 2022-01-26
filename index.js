@@ -42,42 +42,47 @@ const accessSheet = async () => {
 };
 
 const getTweet = async () => {
-    const data = await accessSheet();
-    console.log("📝 Getting the tweets");
-    // this is the function that gets the tweets from the spreadsheet
-    const rows = await data.getRows({
-        offset: 1, // skips the header
-    });
+    try {
+        console.log("accessing sheet");
+        const data = await accessSheet();
 
-    // checks if a Tweet is ready and if it has been published yet
+        console.log("📝 Getting the tweets from the sheet");
+        // this is the function that gets the tweets from the spreadsheet
+        const rows = await data.getRows({
+            offset: 1, // skips the header
+        });
+        // checks if a Tweet is ready and if it has been published yet
 
-    rows.forEach(async (row) => {
-        if (row.Ready === "TRUE" && row.Published === "FALSE") {
-            console.log(row);
+        rows.forEach(async (row) => {
+            if (row.Ready === "TRUE" && row.Published === "FALSE") {
+                console.log(row);
 
-            // this is the function that publishes the tweet
-            twit.post(
-                "statuses/update",
-                {
-                    status: `${row.Name}: ${row.Description} | 👉🏼 ${row.URL} |  ${row.Handle} | ${row.Hashtags}`,
-                },
-                function (err, data, response) {
-                    // console.log(data);
-                    console.log(response);
-                }
-            );
+                // this is the function that publishes the tweet
+                twit.post(
+                    "statuses/update",
+                    {
+                        status: `${row.Name}: ${row.Description} | 👉🏼 ${row.URL} |  ${row.Handle} | ${row.Hashtags}`,
+                    },
+                    function (err, data, response) {
+                        // console.log(data);
+                        console.log(response);
+                    }
+                );
 
-            // this is the function that updates the spreadsheet
-            let now = dayjs();
+                // this is the function that updates the spreadsheet
+                let now = dayjs();
 
-            row.Published = "TRUE";
-            row.Timestamp = now;
-            await row.save();
-            console.log("The End");
-        } else {
-            console.log("Nothing to post!");
-        }
-    });
+                row.Published = "TRUE";
+                row.Timestamp = now;
+                await row.save();
+                console.log("The End");
+            } else {
+                console.log("Nothing to post!");
+            }
+        });
+    } catch (error) {
+        console.log("error getting rows", error);
+    }
 };
 
 getTweet();
